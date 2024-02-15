@@ -1,11 +1,12 @@
 .nav{
+    width:100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
      background-color: var( --color-green--);
      height: 74px;
-   padding:0px 32px;
-    width: 100vw;
+     padding:0px 32px;
+   
 }
 
 .logodiv{

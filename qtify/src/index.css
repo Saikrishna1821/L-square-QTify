@@ -2,6 +2,30 @@
   --color-primary--:#000000;
   --color-green--:#34C94B;
   --color-white--:#ffffff;
-  --font:"poppins";
+ 
 }
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+}
+body{
+  background-color: var(--color-primary--);
+  color:var(--color-white--);
+  font-family:'Poppins','sans-Serif';
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+img,svg{
+  display: block;
+  max-width: 100%;
+}
+.swiper-slide{
+  width: auto !important;
+}
+
 

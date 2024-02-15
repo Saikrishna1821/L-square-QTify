@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  background-color: var(--color-primary--);
+  width: 100vw;
+  height: 270px;
+}
+.text {
+  color: var(--color-white--);
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+}

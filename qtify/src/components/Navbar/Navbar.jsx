@@ -8,8 +8,8 @@ const Navbar=()=>
 
     return <>
     <nav className={styles.nav}>
-   <div  className={styles.logodiv}><img src={logo} alt ="logo" width={67}/></div>
-    <SearchBar placeholder={"Search a album of your choice"}/>
+      <div  className={styles.logodiv}><img src={logo} alt ="logo" width={67}/></div>
+        <SearchBar placeholder={"Search a album of your choice"}/>
     <Feedback/>
     </nav>
     </>

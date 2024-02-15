@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactComponent as SearchIcon } from "../../assets/Search-icon.svg";
 import styles from "./searchBar.module.css";
-const SearchBar=({value})=>
+const SearchBar=({placeholder})=>
 {
 
 const handleSubmit=(e)=>
@@ -10,7 +10,7 @@ const handleSubmit=(e)=>
 }
     return <>
      <form onSubmit={handleSubmit} className={styles.wrapper}>
-        <input placeholder={value} className={styles.search}/>
+        <input placeholder={placeholder} className={styles.search}/>
         <button type="submit" className={styles.button}>
           <SearchIcon/></button>
      </form>

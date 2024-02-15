@@ -7,5 +7,10 @@
    border: 1px;
    height: 47px;
    width:170px;
+   cursor: pointer;
+   font-family:"Poppins";
+   font-size: 18px;
+   letter:0.25px;
+   align:center;
    
 }

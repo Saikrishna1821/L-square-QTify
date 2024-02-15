@@ -1,0 +1,11 @@
+.feedbtn{
+    color:var(--color-green--);
+    background-color: var(--color-primary--);
+ 
+   border-radius: 12px;
+   padding:10px 16px 10px 16px;
+   border: 1px;
+   height: 47px;
+   width:170px;
+   
+}

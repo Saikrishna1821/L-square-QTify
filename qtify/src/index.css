@@ -1,31 +1,35 @@
-:root{
-  --color-primary--:#000000;
-  --color-green--:#34C94B;
-  --color-white--:#ffffff;
- 
-}
-*,
-*::before,
-*::after{
-  box-sizing: border-box;
+:root {
+  --color-primary: #34c94b;
+  --color-white: #ffffff;
+  --color-black: #121212;
 }
 
-html,body{
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,body {
   height: 100%;
 }
-body{
-  background-color: var(--color-primary--);
-  color:var(--color-white--);
-  font-family:'Poppins','sans-Serif';
+body {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   overflow-x: hidden;
 }
+
 img,svg{
   display: block;
+  /* align-items: center; */
   max-width: 100%;
+  /* margin: 5px; */
 }
+
 .swiper-slide{
   width: auto !important;
 }
-
-

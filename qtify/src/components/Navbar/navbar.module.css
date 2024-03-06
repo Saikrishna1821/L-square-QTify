@@ -1,15 +1,14 @@
-.nav{
-    width:100vw;
+.navbar {
+    background-color: var(--color-primary);
     display: flex;
     align-items: center;
     justify-content: space-between;
-     background-color: var( --color-green--);
-     height: 74px;
-     padding:0px 32px;
-   
-}
+    width: 100vw;
+    height: 74px;
+    padding: 0px 32px;
+  }
 
-.logodiv{
+  .logoDiv{
     display: flex;
-     margin: 14px;
-}
+    margin: 14px;
+  }

@@ -5,3 +5,6 @@
     z-index: 10;
     color: var(--color-white);
 }
+.empty{
+    height: auto;
+}

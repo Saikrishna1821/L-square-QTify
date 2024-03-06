@@ -16,6 +16,7 @@ const CarouselLeftNavigation = () => {
   return (
     <div className={styles.leftNavigation}>
         {!isBeginning && <LeftArrow onClick={() => swiper.slidePrev()}/>}
+        <p className={styles.empty}></p>
     </div>
   )
 }
